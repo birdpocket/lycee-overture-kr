@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/index.css" type = "text/css"/>
+        <title>Lycee Overture Dict</title>
+        <meta
+     name='viewport'
+     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
+/>
+    </head>
+    <body>
+        <div class="container-fluid" id="wrap">
+            <div class="row justify-content-md-center">
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon1">LO-</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="card id" aria-label="card_id" aria-describedby="addon1" id="cardno">
+                    <div class="input-group-append">
+                        <span class="btn btn-outline-secondary" type="button" id="addon2">Search</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid padding-top-5px card-img" id="output-img">
+            <img id="card_img"  src="" />
+        </div>
+        <div class="container-fluid padding-top-5px" id="output-desc">
+            『ランブリングエンジェル』より基本的な継承を行われているが一部に差異がある。
+デッキは60枚。
+互いのプレーヤーは相手のデッキを0枚に（相手をデッキアウトに）すれば勝利となる（特殊勝利は除く）。『ランブリングエンジェル』の「ライフスタック」は廃止された。
+相手キャラが攻撃宣言し、自分が防御キャラを指定した場合、バトル処理に入る（詳しくはゲームの流れ―バトルを参照）。
+自分が防御キャラを指定（防御宣言）しない場合、相手キャラの元のAP値の枚数分、自分のデッキからカードを破棄する。これをダメージと呼ぶ（能力によるデッキ破棄はダメージではない）。
+
+同名カードはデッキに4枚までしか入れることが出来ない。『ランブリングエンジェル』も共通。
+カードに「別番号の同名カードとは別に入れることが出来る」等特別な表記されているものを除く。
+「同名カードとして扱う」と書かれているものは同名として扱い、計4枚までしかデッキに入れられない。
+全く違うカードでも「入れることが出来る」と書かれていない場合、合計で4枚までしかデッキに入れることは出来ない（例：「信頼 (EV-0264)」/「信頼 (IT-0109)」など）。
+        </div>
+        <div class="container-fluid padding-top-5px" id="output-qna">
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="/static/main.js"></script>
+    </body>
+</html>

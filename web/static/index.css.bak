@@ -1,0 +1,161 @@
+body {
+    background-color: #DCDCDC;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    background-color: rgb(244, 244, 246);
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    background-color: #E8E8E8;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.header-logo {
+    min-height: 120px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1024px;
+}
+
+.filter-row {
+    padding-bottom: 5px;
+}
+
+.body-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.max-width-1024 {
+    max-width: 1024px;
+}
+
+.event-date-cell {
+    white-space: nowrap;
+    width:0.1%;
+}
+
+.table-hover>thead>tr>th, .table-hover>tbody>tr>th, .table-hover>tfoot>tr>th, .table-condensed>thead>tr>td, .table-hover>tbody>tr>td, .table-hover>tfoot>tr>td {
+    padding: 5px;
+}
+
+.button_disabled {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.right-tabs .nav {
+    float: right;
+    border-bottom: 0px;
+}
+.right-tabs .nav li { float: left }
+.right-tabs .tab-content {
+    float: left;
+    border-top: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+.menubar {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav-tabs > li > a {
+    color: grey;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border: none;
+    background: none;
+    border-bottom: 2px #483D8B solid;
+}
+
+.profile-card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 300px;
+	box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.profile-card.profile-hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.profile-card.profile-hovercard .header {
+    background: url("/static/images/about_main.jpg");
+    background-size: cover;
+    height: 165px;
+}
+
+.profile-card.profile-hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.profile-card.profile-hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.5);
+}
+
+.profile-card.profile-hovercard .info {
+    padding: 4px 8px 10px;
+}
+
+.profile-card.profile-hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.profile-card.profile-hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.profile-card.profile-hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
